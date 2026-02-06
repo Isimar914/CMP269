@@ -10,5 +10,19 @@ public abstract class SmartDevice implements Powerable {
         this.isOn = false;
     }
 
+    public void turnOn() {
+        if (!isOn) {
+            isOn = true;
+            activeDevicesCount++;
+        }
+    }
+
+    public void turnOff() {
+        if (isOn) {
+            isOn = false;
+            activeDevicesCount--;
+        }
+    }
+
     public abstract void performSelfDiagnostic();
 }

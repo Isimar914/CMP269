@@ -17,5 +17,10 @@ public class SmartThermostat extends SmartDevice implements Adjustable {
             }
         }
     ]
-    
+
+    @Override
+    public void turnOn() {
+        System.out.println("HVAC System Starting...");
+        super.turnOn();
+    }
 }
