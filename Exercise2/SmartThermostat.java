@@ -8,5 +8,14 @@ public class SmartThermostat extends SmartDevice implements Adjustable {
         super(deviceName);
         this.temperature = 60;
     }
+
+    @Override
+    public void setLevel(int level) [
+        if (isOn) {
+            if (level >= 60 && level <= 80) {
+                temperature = level;
+            }
+        }
+    ]
     
 }
