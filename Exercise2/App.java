@@ -14,6 +14,13 @@ public class App {
         homeHub.add(kitchenSmartLight);
         homeHub.add(hallwaySmartThermostat);
 
+        livingRoomSmartLight.turnOn();
+        hallwaySmartThermostat.turnOn();
+
+        kitchenSmartLight.setLevel(75);
+
+        System.out.println(SmartDevice.activeDevicesCount);
+
         
     }
 }
