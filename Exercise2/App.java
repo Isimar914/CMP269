@@ -21,6 +21,8 @@ public class App {
 
         System.out.println(SmartDevice.activeDevicesCount);
 
-        
+        for (SmartDevice device : homeHub) {
+            device.performSelfDiagnostic();
+        }
     }
 }
