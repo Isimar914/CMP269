@@ -1,0 +1,4 @@
+Student: Alex_Gonzales | Average: 63.00
+Student: Alice_Smith | Average: 84.33
+Student: Jasmine_Lin | Average: 75.67
+Student: Osvaldo_Flores | Average: 73.67
