@@ -26,15 +26,15 @@ public class BankAccount {
         husband.start();
         wife.start();
 
+        long[] result = {0};
         Thread heavyTask = new Thread(() -> {
-            long result = 0;
             for (long i = 0; i < 1000000000; i++) {
-                result += i;
+                result[0] += i;
             }
-            System.out.println("Calculation Finished: " + result);
         });
 
         heavyTask.start();
         heavyTask.join();
+        System.out.println("Calculation Finished: " + result[0]);
     }
 }
