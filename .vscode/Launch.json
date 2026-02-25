@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreadJoin",
+            "request": "launch",
+            "mainClass": "Exercise5.ThreadJoin",
+            "projectName": "CMP269_399f565"
+        },
+        {
+            "type": "java",
+            "name": "BankAccount",
+            "request": "launch",
+            "mainClass": "Exercise5.BankAccount",
+            "projectName": "CMP269_399f565"
+        },
+        {
+            "type": "java",
+            "name": "ThreadStates",
+            "request": "launch",
+            "mainClass": "Exercise5.ThreadStates",
+            "projectName": "CMP269_399f565"
+        },
+        {
+            "type": "java",
+            "name": "GreeterTask",
+            "request": "launch",
+            "mainClass": "Exercise5.GreeterTask",
+            "projectName": "CMP269_399f565"
+        },
+        {
+            "type": "java",
             "name": " Launch RegestrationApp",
             "request": "launch",
             "mainClass": "Exercise4.RegestrationApp",
